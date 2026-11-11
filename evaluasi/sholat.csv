@@ -1,0 +1,21 @@
+kalimat,intent
+assalamualaikum min,salam
+terima kasih banyak ya,terima_kasih
+kamu ini bot apa sih,identitas
+apa saja syarat sah sholat,syarat_sah
+sebelum sholat wajib wudhu ga,syarat_sah
+sebutkan rukun sholat,rukun_sholat
+gimana niat sholat subuh,niat_fardhu
+tata cara gerakan sholat yang benar,tata_cara
+contoh sholat sunnah apa aja,sholat_sunnah
+bacaan tahiyyat akhir gimana,bacaan_tasyahud
+apa aja yang membatalkan sholat,hal_membatalkan
+apakah kentut bikin batal sholat,hal_membatalkan
+gimana sholat jamak takdim,jamak_qashar
+lupa rakaat sholat harus gimana,sujud_sahwi
+resep nasi goreng enak,fallback
+berapa harga tiket pesawat ke jakarta,fallback
+siapa presiden pertama indonesia,fallback
+jam berapa sekarang,fallback
+jadwal pertandingan bola malam ini,fallback
+apa warna langit hari ini,fallback

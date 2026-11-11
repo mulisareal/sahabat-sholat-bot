@@ -1,0 +1,176 @@
+{
+  "id": "sholat",
+  "name": "SahabatSholat: Panduan & Fiqih Sholat Sehari-hari",
+  "bot_name": "SahabatSholat",
+  "avatar": "🕌",
+  "color": "#059669",
+  "description": "Menjawab pertanyaan seputar niat, rukun, syarat sah, tata cara sholat fardhu, sholat sunnah, jamak-qashar, dan sujud sahwi.",
+  "greeting": "Assalamu'alaikum! Saya SahabatSholat. Tanyakan kepada saya seputar niat, rukun, syarat sah, tata cara sholat, sholat sunnah, atau sholat jamak & qashar.",
+  "suggestions": [
+    "Apa saja rukun sholat?",
+    "Niat sholat 5 waktu",
+    "Cara sholat jamak dan qashar",
+    "Kapan sujud sahwi dilakukan?"
+  ],
+  "fallback": [
+    "Maaf, saya belum memahami pertanyaan tersebut. Coba tanyakan seputar niat, rukun, syarat sah, tata cara sholat, sholat sunnah, atau jamak-qashar.",
+    "Pertanyaan tersebut belum ada di catatan fiqih saya. Silakan tanyakan hal lain seputar ibadah sholat."
+  ],
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "halo",
+        "assalam",
+        "assalamualaikum",
+        "selamat pagi",
+        "selamat siang",
+        "permisi"
+      ],
+      "responses": [
+        "Wa'alaikumussalam warahmatullah! Ada yang bisa SahabatSholat bantu seputar ibadah sholat?",
+        "Wa'alaikumussalam! Silakan tanyakan informasi panduan sholat yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "terima kasih",
+        "makasih banyak",
+        "syukron",
+        "jazakallah",
+        "oke terima kasih"
+      ],
+      "responses": [
+        "Sama-sama! Semoga ibadahnya lancar dan diterima Allah SWT.",
+        "Dengan senang hati. Ada hal lain seputar sholat yang ingin Anda tanyakan?"
+      ]
+    },
+    {
+      "tag": "identitas",
+      "patterns": [
+        "siapa kamu",
+        "kamu siapa",
+        "nama kamu siapa",
+        "kamu bot apa",
+        "kamu bisa bantu apa"
+      ],
+      "responses": [
+        "Saya SahabatSholat, asisten virtual panduan ibadah sholat. Saya siap membantu Anda memahami niat, rukun, syarat sah, hingga sholat musafir.",
+        "Saya adalah SahabatSholat yang bertugas memberikan informasi praktis dan sahih seputar tata cara ibadah sholat."
+      ]
+    },
+    {
+      "tag": "syarat_sah",
+      "patterns": [
+        "syarat sah sholat",
+        "apa syarat sah sholat",
+        "syarat sholat diterima",
+        "syarat wajib sholat",
+        "sebelum sholat harus apa"
+      ],
+      "responses": [
+        "Syarat sah sholat meliputi: suci dari hadats besar dan kecil (berwudhu/tayammum), suci badan/pakaian/tempat dari najis, menutup aurat, masuk waktu sholat, dan menghadap kiblat.",
+        "Agar sholat sah, pastikan sudah berwudhu, suci dari najis, menutup aurat secara sempurna, masuk waktu sholat, dan menghadap ke arah Kiblat."
+      ]
+    },
+    {
+      "tag": "rukun_sholat",
+      "patterns": [
+        "rukun sholat",
+        "apa saja rukun sholat",
+        "hal wajib dalam sholat",
+        "rukun sholat ada berapa",
+        "yang harus dilakukan saat sholat"
+      ],
+      "responses": [
+        "Rukun sholat ada 13: (1) Niat, (2) Berdiri bagi yang mampu, (3) Takbiratul ihram, (4) Membaca Al-Fatihah, (5) Ruku' dengan tuma'ninah, (6) I'tidal, (7) Sujud dua kali, (8) Duduk di antara dua sujud, (9) Duduk tasyahud akhir, (10) Membaca tasyahud akhir, (11) Membaca shalawat, (12) Salam pertama, dan (13) Tertib.",
+        "Rukun sholat adalah bagian inti yang wajib dilakukan: niat, takbiratul ihram, membaca Al-Fatihah, ruku', i'tidal, sujud, duduk tasyahud akhir, hingga salam secara berurutan."
+      ]
+    },
+    {
+      "tag": "niat_fardhu",
+      "patterns": [
+        "niat sholat 5 waktu",
+        "bacaan niat sholat fardhu",
+        "cara niat sholat subuh dzuhur ashar maghrib isya",
+        "lafal niat sholat wajib",
+        "niat sholat fardhu"
+      ],
+      "responses": [
+        "Niat sholat fardhu diucapkan di dalam hati bersamaan dengan Takbiratul Ihram. Contoh niat Subuh: 'Ushallii fardhash-Subhi rak'ataini mustaqbilal qiblati adaa'an lillaahi ta'aala'.",
+        "Niat ditujukan sesuai sholatnya (Subuh 2 rakaat, Dzuhur/Ashar/Isya 4 rakaat, Maghrib 3 rakaat) menghadap kiblat karena Allah Ta'ala."
+      ]
+    },
+    {
+      "tag": "tata_cara",
+      "patterns": [
+        "tata cara sholat",
+        "urutan gerakan sholat",
+        "panduan gerakan sholat",
+        "cara sholat yang benar",
+        "langkah langkah sholat"
+      ],
+      "responses": [
+        "Urutan gerakan sholat: Berdiri menghadap kiblat -> Niat & Takbiratul Ihram -> Membaca Al-Fatihah & surat pendek -> Ruku' -> I'tidal -> Sujud pertama -> Duduk di antara dua sujud -> Sujud kedua -> Rakaat berikutnya -> Tasyahud Akhir -> Salam.",
+        "Tata cara sholat dimulai dari Takbiratul Ihram hingga diakhiri dengan menolehkan wajah ke kanan & kiri saat membaca Salam pertama."
+      ]
+    },
+    {
+      "tag": "sholat_sunnah",
+      "patterns": [
+        "info sholat sunnah",
+        "sholat sunnah apa saja",
+        "macam macam sholat sunnah",
+        "contoh sholat sunnah",
+        "sholat dhuha tahajud"
+      ],
+      "responses": [
+        "Beberapa sholat sunnah yang dianjurkan antara lain: Sholat Rawatib (pendamping fardhu), Sholat Dhuha (pagi hari), Sholat Tahajud (sepertiga malam), Sholat Witir, dan Sholat Istikharah.",
+        "Sholat sunnah membantu menyempurnakan sholat fardhu. Contoh utama yang sangat dianjurkan adalah Tahajud di malam hari dan Dhuha di pagi hari."
+      ]
+    },
+    {
+      "tag": "hal_membatalkan",
+      "patterns": [
+        "hal yang membatalkan sholat",
+        "apa yang membatalkan sholat",
+        "sholat batal karena apa",
+        "sebab sholat batal",
+        "apakah kentut membatalkan sholat"
+      ],
+      "responses": [
+        "Hal yang membatalkan sholat: berhadats (kentut/buang air), terkena najis, berbicara sengaja, terbuka aurat, makan/minum, bergerak berturut-turut 3 kali, atau mendahului imam 2 rukun.",
+        "Sholat batal jika wudhu batal, terbuka aurat tanpa sengaja langsung ditutup, tertawa terbahak-bahak, atau bergerak di luar gerakan sholat secara berlebihan."
+      ]
+    },
+    {
+      "tag": "jamak_qashar",
+      "patterns": [
+        "cara sholat jamak dan qashar",
+        "sholat jamak qashar",
+        "syarat sholat musafir",
+        "bagaimana sholat saat bepergian",
+        "sholat jamak takdim takhir"
+      ],
+      "responses": [
+        "Sholat Jamak mengabungkan dua sholat (Dzuhur-Ashar atau Maghrib-Isya) dalam satu waktu (Takdim/Takhir). Qashar meringkas sholat 4 rakaat menjadi 2 rakaat. Syaratnya: perjalanan jauh (minimal ~81 km) bukan untuk maksiat.",
+        "Bagi musafir, sholat Dzuhur & Ashar atau Maghrib & Isya dapat dijamak. Khusus sholat 4 rakaat dapat diqashar menjadi 2 rakaat."
+      ]
+    },
+    {
+      "tag": "sujud_sahwi",
+      "patterns": [
+        "kapan sujud sahwi dilakukan",
+        "tata cara sujud sahwi",
+        "lupa rakaat sholat",
+        "ragu rakaat sholat harus apa",
+        "apa itu sujud sahwi"
+      ],
+      "responses": [
+        "Sujud Sahwi dilakukan 2 kali sujud sebelum atau sesudah salam ketika ragu jumlah rakaat atau lupa tasyahud awal. Ambil jumlah rakaat yang paling yakin (terkecil), lalu lakukan sujud sahwi.",
+        "Jika ragu jumlah rakaat saat sholat, pilihlah hitungan rakaat yang terkecil/pasti, sempurnakan sholat, lalu lakukan 2 kali sujud sahwi sebelum membaca salam."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Database SQLite Lokal
+*.db
+chat_history.db
+
+# Cache Pengujian & IDE
+.pytest_cache/
+.vscode/
+.idea/
+
+# Environment Variables / Credentials
+.env
+.env.*
+
+# Skrip Setup Otomatis (Opsional)
+setup_project.py
